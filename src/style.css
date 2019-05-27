@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+h2 {
+    border-bottom: solid 2px #797979;
+}
+
+p {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 2;
+}
+
+.table-box {
+    display: flex;
+    justify-content: center;
+}
+
+.table-box table, td {
+    border: 1px solid #0000FF;
+}
+
+.table-box td {
+    background-color: #FF0000;
+    color: #FFFF00;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 30px;
+}
+
+.table-box table {
+    width: 200px;
+    height: 100px;
+    border-collapse: collapse;
+}
+
+.table-box caption {
+    caption-side: bottom;
+}
+
+.outline-box {
+    display: flex;
+    justify-content: center;
+}
+
+.outline-box p {
+    outline: #FF0000 dotted thick;
+    width: 100px;
+    height: 50px;
+}
+
+.shadow-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shadow-box .box-1 {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px #F00000;
+}
+
+.shadow-box .box-2 {
+    width: 100px;
+    height: 100px;
+    box-shadow: 4px 4px 10px #F00000;
+}
+
+.shadow-box .box-3 {
+    width: 100px;
+    height: 100px;
+    box-shadow: -4px -4px 10px #F00000;
+}
+
+.shadow-box .box-4 {
+    width: 100px;
+    height: 100px;
+    box-shadow: -10px 0 10px #F00000,
+    0 -10px 10px #000000,
+    10px 0 10px #0000FF,
+    0 10px 10px #008000;
+}
+
+.shadow-box .box-5 {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px #F00000 inset;
+}
