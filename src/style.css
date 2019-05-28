@@ -95,3 +95,79 @@ p {
     height: 100px;
     box-shadow: 0 0 10px #F00000 inset;
 }
+
+.circle-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-box .circle-1 {
+    border: 3px solid red;
+    height: 100px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.circle-box .circle-2 {
+    border: 3px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 53px;
+}
+
+.circle-box .circle-3 {
+    border: 3px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 53px 0;
+}
+
+.circle-box .outer {
+    background-color: #6495ED;
+    height: 150px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.circle-box .inner {
+    background-color: #7FFF00;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.circle-box .percent-outer {
+    height: 100px;
+    width: 200px;
+    border-radius: 30%;
+    background-color: #1E90FF;
+}
+
+.circle-box .percent-inner {
+    height: 60px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #663399;
+}
+
+.practice-box {
+    display: flex;
+    justify-content: center;
+}
+
+.practice-box .board {
+    color: red;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border: 5px solid #DC143C;
+    background-color: #FF0000;
+    border-radius: 30px;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px black inset,
+    2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+}
